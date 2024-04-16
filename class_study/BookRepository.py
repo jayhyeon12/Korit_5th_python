@@ -3,11 +3,11 @@ import pymysql.cursors
 
 class BookRepository:
 
-    host = "mysql-db.cxgogkgkuu0f.ap-northeast-2.rds.amazonaws.com"
+    host = ""
     port = 3306
-    user = "aws"
-    password = "1q2w3e4r!!"
-    database = "library_db"
+    user = ""
+    password = ""
+    database = ""
 
     @classmethod
     def saveBook(cls, book = None):
